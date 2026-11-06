@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de privacidade — QbFX</title>
+<meta name="description" content="Política de privacidade do aplicativo QbFX: quais dados ficam no aparelho, o que é enviado ao assistente de IA e aos anúncios.">
+<meta name="theme-color" content="#0d1016">
+<link rel="stylesheet" href="../style.css">
+<link rel="alternate" hreflang="en" href="../en/privacy/">
+</head>
+<body>
+<header class="top"><div class="wrap">
+<a class="brand" href="../">Qb<span>FX</span></a>
+<nav aria-label="Navegação">
+<a href="../">Início</a>
+<a href="../privacy/" aria-current="page">Privacidade</a>
+<a href="../en/privacy/" hreflang="en" lang="en" aria-label="Read this page in English">English</a>
+</nav>
+</div></header>
+<main><div class="wrap">
+<section class="hero" style="padding-bottom:8px">
+<h1>Política de privacidade do QbFX</h1>
+<p class="muted">Última atualização: 6 de novembro de 2026</p>
+</section>
+<nav aria-label="Sumário"><ol><li><a href="#s1">Resumo</a></li><li><a href="#s2">Quem somos</a></li><li><a href="#s3">Dados que ficam no seu aparelho</a></li><li><a href="#s4">Assistente de IA (DeepSeek)</a></li><li><a href="#s5">Anúncios (edição gratuita)</a></li><li><a href="#s6">Permissões do Android</a></li><li><a href="#s7">Com quem os dados são compartilhados</a></li><li><a href="#s8">Segurança</a></li><li><a href="#s9">Crianças</a></li><li><a href="#s10">Seus direitos</a></li><li><a href="#s11">Mudanças nesta política</a></li><li><a href="#s12">Contato</a></li></ol></nav>
+<h2 id="s1">Resumo</h2>
+<ul>
+<li>O QbFX <strong>não tem conta nem login</strong> e o desenvolvedor <strong>não recebe nem guarda</strong> os seus presets, setlists ou configurações: tudo fica no seu aparelho.</li>
+<li>O <strong>assistente de IA</strong> envia o texto que você digita (e algum contexto) a um serviço de terceiros, a <strong>DeepSeek</strong>, para gerar o timbre.</li>
+<li>A <strong>edição gratuita</strong> exibe anúncios do <strong>Google AdMob</strong>, que coleta dados para exibir e medir anúncios. A edição <strong>Pro não tem anúncios</strong> nem o SDK de anúncios.</li>
+</ul>
+<h2 id="s2">Quem somos</h2>
+<p>O QbFX é desenvolvido por <strong>Bruno Gama Catão</strong>, desenvolvedor individual. Para falar sobre esta política, use o <a href="https://github.com/brunogamacatao/qbfx/issues">GitHub</a>.</p>
+<h2 id="s3">Dados que ficam no seu aparelho</h2>
+<p>Os presets, as setlists, as preferências do app e o contador de gerações de IA usado pelas regras de anúncio são guardados <strong>apenas no armazenamento local</strong> do aparelho. Ao desinstalar o app ou limpar os dados dele, tudo isso é apagado. Quando você exporta um preset ou a biblioteca, o arquivo vai para onde <em>você</em> escolher (arquivo, área de transferência ou compartilhamento do sistema).</p>
+<h2 id="s4">Assistente de IA (DeepSeek)</h2>
+<p>Quando você usa o assistente, o app envia por HTTPS a <strong>api.deepseek.com</strong> (serviço operado pela DeepSeek, com servidores fora do Brasil, inclusive na China):</p>
+<ul>
+<li>o texto que você digitou e as mensagens recentes da conversa (até 12 mensagens, de até 600 caracteres cada);</li>
+<li>um resumo do preset em edição (até 1.000 caracteres) e o idioma do aparelho, para responder no seu idioma.</li>
+</ul>
+<p>O app <strong>não envia</strong> nome, e-mail, identificador do aparelho nem localização. Mesmo assim, o provedor recebe o endereço IP da sua conexão, como em qualquer acesso à internet. <strong>Não digite dados pessoais ou sensíveis no assistente.</strong> O tratamento desses dados pela DeepSeek segue a política de privacidade dela, publicada no site oficial (deepseek.com). Se você não usar o assistente, nada disso é enviado.</p>
+<h2 id="s5">Anúncios (edição gratuita)</h2>
+<p>A edição gratuita usa o <strong>Google AdMob</strong> para exibir um banner e vídeos recompensados. O AdMob pode coletar e usar o <strong>ID de publicidade</strong>, o endereço IP, informações do aparelho e do app (modelo, versão do sistema, idioma) e dados de interação com anúncios, para exibir, limitar a frequência, medir e prevenir fraudes. Isso pode incluir uma localização <em>aproximada</em> estimada pelo IP.</p>
+<ul>
+<li>Onde a lei exige (por exemplo, no Espaço Econômico Europeu e no Reino Unido), o <strong>Google pede o seu consentimento</strong> antes de mostrar anúncios, e você pode rever a escolha em <em>Ajustes → Anúncios → Configurações de privacidade dos anúncios</em>.</li>
+<li>Você pode <strong>redefinir o ID de publicidade</strong> ou desativar a personalização de anúncios nas configurações do Android (<em>Google → Anúncios</em>).</li>
+<li>Veja como o Google usa dados de apps que usam seus serviços em <a href="https://policies.google.com/technologies/partner-sites">policies.google.com/technologies/partner-sites</a>.</li>
+</ul>
+<p>A edição <strong>QbFX Pro</strong> não contém anúncios nem o SDK do AdMob e não usa o ID de publicidade.</p>
+<h2 id="s6">Permissões do Android</h2>
+<table>
+<tr><th>Permissão</th><th>Para quê</th></tr>
+<tr><td>Internet</td><td>Assistente de IA e anúncios (edição gratuita).</td></tr>
+<tr><td>Bluetooth</td><td>Ponte Bluetooth para controlar o pedal a partir de outro aparelho. Só fala com aparelhos que <em>você</em> escolher.</td></tr>
+<tr><td>Localização</td><td>O Android pode exigir esta permissão para procurar aparelhos Bluetooth em versões mais antigas. <strong>O app não lê, usa nem guarda a sua localização.</strong></td></tr>
+<tr><td>USB / MIDI</td><td>Falar com a pedaleira conectada. Os comandos ficam entre o app e o pedal.</td></tr>
+<tr><td>Arquivos</td><td>Exportar e importar presets e backups pelo seletor de arquivos do sistema, apenas nos arquivos que você escolher.</td></tr>
+</table>
+<h2 id="s7">Com quem os dados são compartilhados</h2>
+<p>Apenas com os dois serviços acima: <strong>DeepSeek</strong> (se você usar o assistente de IA) e <strong>Google AdMob</strong> (edição gratuita). O desenvolvedor <strong>não vende</strong> dados e não os usa para criar perfis.</p>
+<h2 id="s8">Segurança</h2>
+<p>As comunicações com a DeepSeek e com o Google usam HTTPS. Os dados locais ficam na área privada do app no Android.</p>
+<h2 id="s9">Crianças</h2>
+<p>O QbFX não é direcionado a crianças e não coleta intencionalmente dados de menores de 13 anos.</p>
+<h2 id="s10">Seus direitos</h2>
+<p>Como o desenvolvedor não guarda os seus dados, você controla o que está no aparelho (apagar o app ou os dados do app remove tudo). Para dados tratados pela DeepSeek ou pelo Google (acesso, correção, exclusão, oposição, portabilidade, conforme a LGPD, o GDPR e leis equivalentes), use os canais desses serviços. Se precisar de ajuda, fale conosco pelo <a href="https://github.com/brunogamacatao/qbfx/issues">GitHub</a>.</p>
+<h2 id="s11">Mudanças nesta política</h2>
+<p>Quando o app ou o tratamento de dados mudarem, esta página será atualizada e a data acima, revisada.</p>
+<h2 id="s12">Contato</h2>
+<p>Abra uma <a href="https://github.com/brunogamacatao/qbfx/issues">issue no GitHub</a>. Não inclua dados pessoais na descrição: o contato é público.</p>
+</div></main>
+<footer><div class="wrap">
+<p>QbFX · aplicativo independente · <a href="../privacy/">Privacidade</a> · <a href="https://github.com/brunogamacatao/qbfx/issues">GitHub</a></p>
+</div></footer>
+</body>
+</html>
